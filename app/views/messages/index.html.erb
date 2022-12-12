@@ -1,8 +1,26 @@
 <div class="wrapper">
   <div class="side-bar">
     <%= render "side_bar" %>
-    <div class="side-bar-header"></div>
-    <div class="room"></div>
+    <div class="side-bar-header">
+      <div class="header-name">
+        <a href="#">YMYMYM</a>
+      </div>
+      <div class="create-room">
+        <a href="#">チャットを作成する</a>
+      </div>
+    </div>
+    <div class="rooms">
+      <div class="room">
+        <div class="room-name">
+          <a href="#">Beatles</a>
+        </div>
+      </div>
+      <div class="room">
+        <div class="room-name">
+          <a href="#">Oasis</a>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="chat">
     <%= render "main_chat" %>
